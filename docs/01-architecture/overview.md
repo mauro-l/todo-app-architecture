@@ -10,7 +10,7 @@ Este documento describe el estado actual de la arquitectura para el MVP.
 | Backend | Node.js + Express + TypeScript | API REST y reglas de aplicacion |
 | Database | PostgreSQL | Almacenamiento persistente de datos |
 | ORM | Drizzle ORM | Esquema SQL, consultas y migraciones |
-| Authentication | Custom single-user session flow | Setup inicial, sesion persistente y unlock |
+| Authentication | Multi-user email/password + secure session cookie | Registro, login persistente y aislamiento de datos por usuario |
 
 ## Decision Source
 
@@ -24,4 +24,4 @@ Este documento describe el estado actual de la arquitectura para el MVP.
 
 ## Last Reviewed
 
-- 2026-03-08
+- 2026-03-12

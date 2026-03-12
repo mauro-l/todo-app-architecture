@@ -1,5 +1,10 @@
 # ADR-0003 – Application Designed as Single-User
 
+## Status
+Superseded
+
+Superseded by ADR-0010.
+
 ## Context
 
 El proyecto Todo App Architecture se concibe como una aplicación personal,

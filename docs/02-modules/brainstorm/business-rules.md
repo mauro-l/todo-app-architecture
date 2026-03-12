@@ -11,11 +11,11 @@ Brainstorm prioriza la captura por sobre la organización.
 
 ## 2. Ownership and Access
 
-- Brainstorm es un espacio **estrictamente personal**.
-- La aplicación está pensada para **un único usuario**.
-- Todas las Ideas pertenecen exclusivamente al dueño de la app.
-- No existe el concepto de múltiples usuarios, roles, permisos ni contenido compartido.
-- Todo el contenido es privado por definición.
+- Brainstorm es un espacio personal por cuenta de usuario.
+- Todas las Ideas pertenecen exclusivamente al usuario autenticado propietario.
+- La aplicación permite múltiples usuarios con aislamiento de datos por `user_id`.
+- No existe el concepto de contenido compartido en el MVP.
+- Todo el contenido es privado por definición para cada cuenta.
 
 ---
 

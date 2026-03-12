@@ -13,6 +13,21 @@ Luego continua con:
 - `docs/01-architecture/technology-rationale.md`
 - `docs/05-adr/0008-technology-stack-selection-for-mvp.md`
 
+Para entender el modelo de autenticacion y sesion:
+
+- `docs/05-adr/0010-finalize-multi-user-authentication-and-session-model.md`
+- `docs/03-flows/user-flows.md`
+- `docs/04-non-functional/security.md`
+
+## Recent Decisions
+
+| ADR | Decision | Status |
+| --- | --- | --- |
+| ADR-0010 | Multi-user authentication and session model finalized | Accepted |
+| ADR-0009 | User authentication and multi-user data isolation | Accepted |
+| ADR-0008 | Technology stack selection for MVP | Accepted |
+| ADR-0003 | Application designed as single-user | Superseded |
+
 ## Sections
 
 - `00-introduction/` Contexto y alcance general del proyecto.

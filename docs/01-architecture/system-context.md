@@ -86,6 +86,7 @@ Este documento define los límites del sistema y la distribución de responsabil
 
 - Stack tecnológico: `docs/05-adr/0008-technology-stack-selection-for-mvp.md`
 - Modelo de autenticación: `docs/05-adr/0009-user-authentication-and-multi-user-data-isolation.md`
+- Refinamiento final de autenticación: `docs/05-adr/0010-finalize-multi-user-authentication-and-session-model.md`
 - Módulo Brainstorm: `docs/05-adr/0004-brainstorm-module.md`
 - Módulo Todo: `docs/05-adr/0007-project-management-model-in-todo-list.md`
 

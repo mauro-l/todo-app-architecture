@@ -1,11 +1,11 @@
 # Vision
 
 ## Purpose
-Esta aplicación existe para ayudar a organizar el día a día de una persona, tanto en su vida cotidiana como en sus procesos creativos y de trabajo.
+Esta aplicación existe para reducir la distancia entre pensar y hacer.
 
-Su objetivo principal es permitir capturar ideas, tareas y recordatorios de forma rápida y sin fricción, evitando que pensamientos, pendientes o inspiraciones se pierdan.
+Su propósito es ofrecer un espacio donde las ideas puedan capturarse sin presión y evolucionar hacia acciones concretas mediante un sistema que prioriza claridad, foco y adaptabilidad.
 
-La aplicación busca convertirse en un espacio único donde convivan tareas simples del día a día y ideas que pueden evolucionar en proyectos más grandes, ofreciendo una base clara para pensar, planificar y ejecutar.
+No busca imponer disciplina rígida, sino acompañar el proceso real del usuario, transformando la organización personal en un flujo natural y sostenible.
 
 ## Target Users
 La aplicación está dirigida a personas que necesitan organizar su día a día sin separar su vida cotidiana de sus procesos creativos o de trabajo.

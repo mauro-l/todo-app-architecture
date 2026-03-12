@@ -2,7 +2,7 @@
 
 ## Goal
 
-Definir una estrategia minima de logging para el MVP single-user.
+Definir una estrategia minima de logging para el MVP multi-user.
 El objetivo es facilitar debugging cuando ocurra un error, sin agregar complejidad innecesaria.
 
 ## Scope
@@ -48,4 +48,4 @@ Cada log debe incluir al menos:
 
 ## Evolution Rule
 
-Si el proyecto evoluciona a multi-user o despliegue productivo para terceros, esta estrategia debe revisarse y ampliarse.
+Si el proyecto evoluciona a despliegue productivo con mayor escala, esta estrategia debe revisarse y ampliarse.

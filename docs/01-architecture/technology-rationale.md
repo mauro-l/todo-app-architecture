@@ -53,14 +53,16 @@ Tradeoffs:
 
 - Exige decisiones SQL mas explicitas que ORMs con mayor abstraccion.
 
-## Authentication: Custom Single-User Session
+## Authentication: Multi-User Email/Password + Persistent Session
 
 Motivo:
 
-- Encaja con el alcance del MVP: app personal para un unico usuario.
-- Complejidad minima de auth para la entrega inicial.
+- Permite uso real por multiples personas sin exponer datos entre cuentas.
+- Mantiene implementacion controlada para MVP sin dependencias externas.
+- Reduce friccion de uso mediante sesion persistente con cookie segura.
 
 Tradeoffs:
 
-- La responsabilidad de seguridad queda dentro de la aplicacion.
-- Una evolucion a multi-user o identidad externa puede requerir rediseno.
+- La responsabilidad de seguridad y sesiones queda dentro de la aplicacion.
+- Requiere controles estrictos de validacion por `user_id` en cada request.
+- Una evolucion a OAuth o SSO puede requerir nuevas decisiones de integracion.
