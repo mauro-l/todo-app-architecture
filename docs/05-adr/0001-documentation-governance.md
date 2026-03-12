@@ -43,7 +43,7 @@ Las ADR:
 - La anterior se marca como `Superseded`.
 
 Ubicación oficial:
-/docs/02-adr/
+/docs/05-adr/
 
 ---
 
@@ -86,7 +86,7 @@ La estructura de `/docs` sigue el siguiente orden lógico:
 
 - 00-introduction → Contexto general del proyecto
 - 01-architecture → Diseño y estructura actual
-- 02-adr → Historial de decisiones arquitectónicas
+- 05-adr → Historial de decisiones arquitectónicas
 
 Architecture describe el estado actual.
 ADR describe por qué se llegó a ese estado.
