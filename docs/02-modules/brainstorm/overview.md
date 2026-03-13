@@ -38,6 +38,7 @@ Brainstorm no exige que las ideas evolucionen, se completen o se conviertan en t
 Brainstorm incluye:
 - Creación de Ideas
 - Edición de Ideas
+- Agrupación de Ideas en Books (contenedores visuales)
 - Conversión manual de Ideas en Todos
 - Visualización simple de Ideas
 
@@ -47,6 +48,30 @@ Brainstorm no incluye:
 - Fechas límite
 - Inteligencia artificial
 - Clasificación automática
+
+---
+
+## Book as Visual Container
+
+Book es la unidad de agrupación visual dentro de Brainstorm.
+
+- Una Idea puede pertenecer a un Book o quedar no agrupada.
+- El Book permite organizar Ideas por contexto o tema sin imponer una taxonomía rígida.
+- El usuario puede mover Ideas entre Books en función de su necesidad del momento.
+
+El módulo contempla también Books especiales del sistema (por ejemplo, configuración o ideas eliminadas), manteniendo la misma metáfora visual.
+
+---
+
+## Book Theme
+
+El tema de un Book representa su intención de agrupación (por ejemplo: trabajo, hogar, aprendizaje, referencias).
+
+- El tema del Book es una ayuda de organización, no una regla de negocio restrictiva.
+- Una Idea no queda limitada por el tema del Book y puede moverse a otro contenedor.
+- El sistema no interpreta semánticamente el contenido para forzar un tema.
+
+Nota: la ADR-0011 formaliza Book, `bookId` opcional y la posicion en grilla (`gridX`, `gridY`) para Ideas agrupadas; no formaliza `theme` como campo obligatorio de dominio.
 
 ---
 

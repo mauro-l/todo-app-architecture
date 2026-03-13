@@ -36,8 +36,10 @@ Brainstorm prioriza la captura por sobre la organización.
 ## 4. Idea Lifecycle
 
 - Una Idea se crea como una captura cruda.
+- Una Idea puede crearse asociada a un Book o sin Book (`bookId = null`).
 - Una Idea puede permanecer sin cambios indefinidamente.
 - Una Idea puede editarse o expandirse con el tiempo.
+- Una Idea puede moverse entre Books o pasar a estado no agrupado sin perder historial de la propia Idea.
 - Una Idea puede marcarse como convertida en un Todo.
 - La conversión no elimina ni reemplaza la Idea original.
 - Las Ideas no se archivan ni eliminan automáticamente.
@@ -53,7 +55,34 @@ Brainstorm prioriza la captura por sobre la organización.
 
 ---
 
-## 6. Conversion Rules
+## 6. Book Rules
+
+- Book es el contenedor visual oficial para agrupar Ideas en Brainstorm.
+- Todo Book pertenece a un unico usuario (`user_id`).
+- Una Idea puede no tener Book asignado (`bookId = null`).
+- El sistema permite Books especiales definidos por producto (por ejemplo, configuracion e ideas eliminadas).
+- Los Books solo pueden contener Ideas.
+- Los Books especiales no cambian la naturaleza de la Idea: solo representan contexto de organizacion.
+
+### 6.1 Grid Position Rules
+
+- Una Idea puede tener posicion en grilla (`gridX`, `gridY`) cuando pertenece a un Book.
+- Si una Idea no pertenece a Book (`bookId = null`), entonces `gridX = null` y `gridY = null`.
+- El sistema no interpreta semanticamente la posicion en grilla; es organizacion visual definida por el usuario.
+- Debe evitarse que dos Ideas ocupen la misma posicion dentro del mismo Book.
+
+### 6.2 Book Theme Rules
+
+- Todo Book puede definir un `theme` descriptivo de agrupacion.
+- El `theme` tiene objetivo de organizacion visual y cognitiva.
+- El `theme` no aplica validaciones semanticas sobre el contenido de las Ideas.
+- El usuario puede mover una Idea a un Book con distinto `theme` en cualquier momento.
+
+Nota: `theme` queda como criterio de UX/documentacion y no como requerimiento obligatorio de dominio en ADR-0011.
+
+---
+
+## 7. Conversion Rules
 
 - Una Idea puede convertirse en un Todo.
 - La conversión es opcional.
@@ -63,7 +92,7 @@ Brainstorm prioriza la captura por sobre la organización.
 
 ---
 
-## 7. Non-goals
+## 8. Non-goals
 
 El módulo Brainstorm **no busca**:
 - Imponer metodologías de productividad
