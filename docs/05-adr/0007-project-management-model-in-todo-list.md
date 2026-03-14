@@ -1,7 +1,7 @@
 # ADR-0007: Project Management Model in Todo List
 
 ## Status
-Accepted
+Superseded by ADR-0013
 
 ## Context
 

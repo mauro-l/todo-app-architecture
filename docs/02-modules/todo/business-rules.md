@@ -117,21 +117,23 @@ El sistema está diseñado para acompañar el proceso real de trabajo del usuari
 
 ## 8. Activation Rules
 
-El sistema mantiene en todo momento un único proyecto activo y un único objetivo activo.
+El sistema puede mantener hasta dos proyectos activos de forma simultánea: un proyecto principal y un proyecto secundario de continuidad.
 
 **Project activation:**
 
-- Solo puede haber un proyecto con estado `active` en un momento dado.
-- Al activar un proyecto, el proyecto previamente activo pasa automáticamente a estado `inactive`.
+- Puede haber hasta dos proyectos con estado `active` en un momento dado.
+- Cuando existe un solo proyecto activo, se considera foco principal.
+- El segundo proyecto activo se habilita únicamente como continuidad frente a bloqueo externo del principal.
+- Al intentar activar un tercer proyecto, el sistema debe exigir desactivar uno de los activos actuales.
 - Un proyecto completado no puede ser activado.
 
 **Objective activation:**
 
-- Solo puede haber un objetivo activo dentro del proyecto activo.
+- Solo puede haber un objetivo activo por cada proyecto activo.
 - Al activar un objetivo diferente dentro del mismo proyecto, el objetivo previamente activo pasa a estado `inactive`.
 - Un objetivo completado no puede ser activado.
 
-Esta restricción es intencional: forzar el foco en un único frente de trabajo a la vez reduce la dispersión cognitiva.
+Esta restricción busca balancear foco y continuidad: mantener un frente principal y permitir un frente secundario cuando el principal esté bloqueado externamente.
 
 ---
 
@@ -148,8 +150,8 @@ El sistema distingue dos vistas con propósitos distintos:
 **Execution View**
 
 - Muestra únicamente:
-  - 1 proyecto activo
-  - 1 objetivo activo dentro de ese proyecto
+  - 1 o 2 proyectos activos
+  - 1 objetivo activo por cada proyecto activo
   - Máximo 1–3 tareas visibles simultáneamente
 - Esta limitación es intencional para prevenir la sobrecarga cognitiva durante la ejecución.
 - El usuario no ve la totalidad de sus tareas pendientes en esta vista.

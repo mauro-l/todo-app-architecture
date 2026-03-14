@@ -50,7 +50,8 @@ Este documento define los límites del sistema y la distribución de responsabil
 ### Todo Module
 
 - Gestión jerárquica de trabajo ejecutable: Project → Objective → Task.
-- Mantiene un único proyecto activo y un único objetivo activo en cada momento.
+- Permite hasta dos proyectos activos simultáneamente (principal + secundario por continuidad).
+- Mantiene un único objetivo activo por cada proyecto activo.
 - Expone dos vistas: Planning View (global) y Execution View (enfocada, máx 1–3 tareas).
 - Registra historial inmutable de cambios por tarea.
 
@@ -89,4 +90,5 @@ Este documento define los límites del sistema y la distribución de responsabil
 - Refinamiento final de autenticación: `docs/05-adr/0010-finalize-multi-user-authentication-and-session-model.md`
 - Módulo Brainstorm: `docs/05-adr/0004-brainstorm-module.md`
 - Módulo Todo: `docs/05-adr/0007-project-management-model-in-todo-list.md`
+- Refinamiento de activación en ejecución: `docs/05-adr/0013-allow-dual-active-projects-for-execution-continuity.md`
 

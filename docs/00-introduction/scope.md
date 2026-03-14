@@ -90,6 +90,28 @@ Acompañar el proceso real de trabajo del usuario.
 
 ---
 
+### AI Chat Utility (auxiliary)
+
+El producto incluye un chat conversacional auxiliar como herramienta independiente.
+
+Incluye:
+
+- consultas generales de apoyo cotidiano
+- exploración rápida de información
+- asistencia informal no vinculada al sistema de productividad
+
+Restricciones:
+
+- no accede a datos internos del usuario (ideas, proyectos o tareas)
+- no genera tareas de forma automática
+- no planifica ni modifica el trabajo del usuario
+
+Objetivo:
+
+Experimentar integración de modelos de lenguaje sin afectar el núcleo del producto.
+
+---
+
 ### History and Progress Tracking
 
 Permite analizar el progreso a lo largo del tiempo.
@@ -132,7 +154,7 @@ La aplicación está diseñada como herramienta **personal**.
 
 ### AI-driven automation (initial phase)
 
-Si bien la arquitectura prepara el sistema para asistencia inteligente, funcionalidades como:
+Si bien existe un chat auxiliar independiente, funcionalidades como:
 
 - generación automática de tareas
 - planificación automática

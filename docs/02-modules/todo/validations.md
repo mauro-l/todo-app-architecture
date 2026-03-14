@@ -149,7 +149,8 @@ Aplica a:
 
 - Booleano
 - Valor por defecto: `false`
-- Solo un Project puede tener `is_active = true` en cualquier momento dado
+- Hasta dos Project pueden tener `is_active = true` en cualquier momento dado
+- Si existen dos activos, deben representar un contexto principal y uno secundario de continuidad
 - Solo un Objective por Project puede tener `is_active = true` en cualquier momento dado
 - Un Project o Objective con `status = completed` no puede tener `is_active = true`
 

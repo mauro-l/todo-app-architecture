@@ -30,7 +30,7 @@ Aplica a:
 
 La Execution View es la vista de mayor frecuencia de uso y debe ser la más responsiva del sistema.
 
-- Debe mostrar únicamente el proyecto activo, el objetivo activo y máximo 1–3 tareas.
+- Debe mostrar únicamente 1 o 2 proyectos activos, sus objetivos activos y máximo 1–3 tareas visibles.
 - No debe cargar la totalidad de proyectos, objetivos ni tareas del usuario al renderizar.
 - Las consultas deben ser específicas y acotadas al contexto activo.
 
@@ -46,7 +46,7 @@ La Execution View es la vista de mayor frecuencia de uso y debe ser la más resp
 ### Tiempo de respuesta
 
 - Las operaciones CRUD estándar (crear, leer, actualizar entidades) deben responder en menos de 300ms en condiciones normales de carga.
-- Las consultas de la Execution View (proyecto activo + objetivo activo + tareas visibles) deben ser consultas directas y índice-friendly.
+- Las consultas de la Execution View (hasta 2 proyectos activos + objetivos activos + tareas visibles) deben ser consultas directas e índice-friendly.
 
 ### Consultas
 
