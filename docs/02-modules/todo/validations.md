@@ -106,6 +106,8 @@ Reglas adicionales:
 
 ### time_estimate
 
+Estado actual: **No-Scope (parking)**
+
 - Opcional
 - Debe ser un número positivo
 - Representa tiempo estimado de ejecución
@@ -118,6 +120,8 @@ Aplica principalmente a:
 ---
 
 ### estimated_date
+
+Estado actual: **No-Scope (parking)**
 
 - Opcional
 - Debe ser una fecha válida
@@ -173,6 +177,8 @@ Aplica a:
   - timestamp del cambio
 - Campos que generan entradas en el historial: `status`, `time_estimate`, `estimated_date`
 
+Nota: en la etapa actual, solo `status` está activo en alcance. `time_estimate` y `estimated_date` quedan reservados para una reactivación futura.
+
 Aplica a:
 
 - Task
@@ -186,8 +192,8 @@ Las fechas deben mantener coherencia temporal dentro del sistema.
 Reglas:
 
 - `completed_at` no puede ser anterior a la fecha de creación.
-- Si existe `estimated_date`, debe representar una fecha futura o presente al momento de la planificación.
-- Las tareas pueden ser reprogramadas si no fueron completadas.
+- Si se reactiva planificación temporal, `estimated_date` debe representar una fecha futura o presente al momento de la planificación.
+- Si se reactiva replanificación, las tareas no completadas podrán ser reprogramadas.
 
 El sistema debe permitir ajustes de planificación sin bloquear la modificación de fechas.
 

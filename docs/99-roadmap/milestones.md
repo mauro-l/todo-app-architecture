@@ -6,6 +6,20 @@ Cada hito representa un estado del producto que puede ser probado y validado de 
 
 ---
 
+## MVP Boundary
+
+### MVP
+
+El MVP del producto comprende los milestones desde **0.1 hasta 4.3**.
+
+Incluye Foundation, Phase 1, Phase 2, Phase 3 y Phase 4.
+
+Queda fuera del MVP actual Planning and Time Tracking (deferred en Future Ideas).
+
+Referencia detallada del corte: `docs/00-introduction/mvp-definition.md`
+
+---
+
 ## Foundation — Prerequisites
 
 ### Milestone 0.1 — Account and Session
@@ -224,76 +238,9 @@ Cada hito representa un estado del producto que puede ser probado y validado de 
 
 ---
 
-## Phase 4 — Planning and Time Tracking
+## Phase 4 — AI Chat Utility
 
-### Milestone 4.1 — Time Estimation
-
-**Estado:** Planificado
-
-**Objetivo:** Permitir estimar tiempo requerido por tarea.
-
-**Alcance:**
-
-- Campo de estimación por tarea
-- Visualización de estimaciones en Planning View
-
-**Referencias:**
-- ADR-0007: Project Management Model in Todo List
-
----
-
-### Milestone 4.2 — Time Tracking
-
-**Estado:** Planificado
-
-**Objetivo:** Registrar tiempo real invertido por tarea.
-
-**Alcance:**
-
-- Registro de tiempo trabajado
-- Persistencia de tiempo real por tarea
-
-**Referencias:**
-- ADR-0007: Project Management Model in Todo List
-
----
-
-### Milestone 4.3 — Estimation vs Reality
-
-**Estado:** Planificado
-
-**Objetivo:** Comparar esfuerzo planificado con esfuerzo real para mejorar planificación.
-
-**Alcance:**
-
-- Cálculo de diferencia entre estimado y real
-- Visualización básica de desvío
-
-**Referencias:**
-- ADR-0007: Project Management Model in Todo List
-
----
-
-### Milestone 4.4 — Flexible Replanning
-
-**Estado:** Planificado
-
-**Objetivo:** Permitir replanificar sin penalizar al usuario.
-
-**Alcance:**
-
-- Reprogramación explícita de tareas
-- Ajuste automático de fechas posteriores
-- Registro de desvíos en historial
-
-**Referencias:**
-- ADR-0007: Project Management Model in Todo List
-
----
-
-## Phase 5 — AI Chat Utility
-
-### Milestone 5.1 — Chat Interface
+### Milestone 4.1 — Chat Interface
 
 **Estado:** Planificado
 
@@ -310,7 +257,7 @@ Cada hito representa un estado del producto que puede ser probado y validado de 
 
 ---
 
-### Milestone 5.2 — AI Integration
+### Milestone 4.2 — AI Integration
 
 **Estado:** Planificado
 
@@ -327,7 +274,7 @@ Cada hito representa un estado del producto que puede ser probado y validado de 
 
 ---
 
-### Milestone 5.3 — Conversation Handling
+### Milestone 4.3 — Conversation Handling
 
 **Estado:** Planificado
 

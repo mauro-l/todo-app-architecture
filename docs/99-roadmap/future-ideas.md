@@ -22,6 +22,24 @@ Posibles usos futuros:
 
 ---
 
+## Planning and Time Tracking (Deferred)
+
+**Origen:** ADR-0007
+
+Las capacidades de planificación temporal avanzada fueron retiradas del plan activo y quedan como línea de evolución de largo plazo.
+
+Capacidades consideradas para una futura reactivación:
+
+- estimación de tiempo por tarea
+- registro de tiempo real
+- comparación entre estimado y real
+- reprogramación de tareas
+- ajuste automático de fechas
+
+Nota: estas capacidades ya no forman parte de la secuencia actual de fases/milestones.
+
+---
+
 ## Análisis de Rendimiento Personal
 
 **Origen:** ADR-0007

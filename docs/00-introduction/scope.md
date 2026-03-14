@@ -63,33 +63,6 @@ Facilitar avanzar sin generar bloqueo.
 
 ---
 
-### Time Estimation and Tracking
-
-Permite mejorar la planificación personal.
-
-Incluye:
-
-- estimación de tiempo por tarea
-- registro de tiempo real
-- comparación entre estimado y real
-
----
-
-### Flexible Replanning
-
-La planificación es adaptativa y no punitiva.
-
-Incluye:
-
-- reprogramación de tareas
-- ajuste automático de fechas posteriores
-- registro de desvíos
-
-Objetivo:
-Acompañar el proceso real de trabajo del usuario.
-
----
-
 ### AI Chat Utility (auxiliary)
 
 El producto incluye un chat conversacional auxiliar como herramienta independiente.
@@ -119,7 +92,6 @@ Permite analizar el progreso a lo largo del tiempo.
 Incluye:
 
 - historial de cambios de tareas
-- registro de estimaciones y tiempos reales
 - seguimiento del avance de proyectos
 
 ---
@@ -149,6 +121,22 @@ La aplicación está diseñada como herramienta **personal**.
 
 - integraciones con servicios externos
 - automatizaciones con otras aplicaciones
+
+---
+
+### Planning and Time Tracking (deferred)
+
+Las capacidades de planificación temporal avanzada quedan fuera de scope en la etapa actual.
+
+Incluye como no-scope:
+
+- estimación de tiempo por tarea
+- registro de tiempo real
+- comparación entre estimado y real
+- reprogramación de tareas
+- ajuste automático de fechas
+
+Estas funcionalidades quedan reservadas para una futura reactivación en versiones posteriores.
 
 ---
 

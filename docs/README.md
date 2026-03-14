@@ -7,6 +7,7 @@ Esta carpeta es la fuente de verdad para documentacion de arquitectura y product
 Si necesitas recordar el stack actual del MVP, empieza aqui:
 
 - `docs/01-architecture/overview.md`
+- `docs/00-introduction/mvp-definition.md`
 
 Luego continua con:
 
@@ -34,6 +35,7 @@ Para entender el modelo de autenticacion y sesion:
 ## Sections
 
 - `00-introduction/` Contexto y alcance general del proyecto.
+	- Incluye definicion formal de MVP en `mvp-definition.md`.
 - `01-architecture/` Estado actual de arquitectura y estructura.
 - `02-modules/` Modulos de dominio y reglas de negocio.
 - `03-flows/` Flujos de usuario y transiciones de estado.

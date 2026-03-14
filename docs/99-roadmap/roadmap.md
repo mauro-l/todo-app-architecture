@@ -70,25 +70,7 @@ Reducir la carga cognitiva y facilitar avanzar en el trabajo diario.
 
 ---
 
-# Phase 4 — Planning and Time Tracking
-
-Incorporación de herramientas de planificación personal.
-
-Incluye:
-
-- estimación de tiempo por tarea
-- registro de tiempo real
-- comparación entre estimado y real
-- replanificación de tareas
-- ajuste automático de fechas
-
-Objetivo:
-
-Mejorar la planificación sin penalizar el cambio.
-
----
-
-# Phase 5 — AI Chat Utility
+# Phase 4 — AI Chat Utility
 
 Incorporación de un chatbot conversacional integrado dentro de la aplicación.
 

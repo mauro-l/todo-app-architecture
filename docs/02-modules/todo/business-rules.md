@@ -11,8 +11,7 @@ El objetivo principal del módulo es:
 - Descomponer objetivos grandes en unidades ejecutables
 - Facilitar la planificación personal
 - Reducir la carga cognitiva durante la ejecución
-- Registrar estimaciones y progreso
-- Permitir replanificación flexible
+- Registrar progreso de ejecución
 
 Este módulo representa el espacio donde las ideas pasan de **concepto a acción**.
 
@@ -160,14 +159,11 @@ El sistema distingue dos vistas con propósitos distintos:
 
 ## 10. Replanning Rules
 
-El sistema trata la replanificación como parte normal del proceso de ejecución.
+Estado actual: **No-Scope (parking)**.
 
-- Las tareas no completadas pueden ser reprogramadas en cualquier momento.
-- Al modificar la fecha estimada de una tarea, las fechas de las tareas posteriores del mismo objetivo pueden ajustarse para mantener coherencia temporal.
-- El sistema no bloquea la modificación de fechas ni penaliza los cambios.
-- No existe mecanismo de penalización por retraso o reprogramación.
+Las reglas de replanificación temporal quedan fuera de alcance en la etapa actual.
 
-El objetivo es que el usuario pueda replantear su trabajo sin fricción.
+Si la fase se reactiva en el futuro, estas reglas deberán redefinirse y versionarse nuevamente.
 
 ---
 
@@ -178,8 +174,8 @@ Cada tarea mantiene un registro inmutable de sus cambios.
 El historial registra:
 
 - Cambios de estado (`status`)
-- Cambios de estimación de tiempo (`time_estimate`)
-- Cambios de fecha estimada (`estimated_date`)
+- Cambios de estimación de tiempo (`time_estimate`) [No-Scope actual]
+- Cambios de fecha estimada (`estimated_date`) [No-Scope actual]
 - Fecha y hora en que se realizó cada cambio
 
 Reglas:
@@ -187,4 +183,4 @@ Reglas:
 - El historial es generado automáticamente por el sistema.
 - El usuario no puede editar ni eliminar entradas del historial.
 - El historial permite analizar desvíos entre planificación inicial y ejecución real.
-- Sirve como base para el análisis de rendimiento personal en versiones futuras del sistema.
+- Sirve como base para evolución futura del sistema cuando se reactive planificación temporal.

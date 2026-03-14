@@ -38,7 +38,7 @@ El sistema evita mostrar demasiadas tareas simultáneamente para prevenir bloque
 Los proyectos se descomponen en objetivos y tareas pequeñas que pueden completarse paso a paso.
 
 **3. Planificación flexible**  
-Las estimaciones y fechas pueden ajustarse sin penalizaciones.
+La planificación temporal avanzada (estimaciones y ajustes de fechas) queda fuera de scope en la etapa actual.
 
 **4. Separación entre planificación y ejecución**  
 El sistema distingue entre una vista global de planificación y una vista enfocada en la ejecución diaria.
@@ -52,9 +52,13 @@ El módulo ToDo gestiona:
 - Proyectos
 - Objetivos
 - Tareas
-- Estimaciones de tiempo
-- Fechas estimadas y reales
 - Estados de progreso
+
+En esta etapa no-scope:
+
+- estimaciones de tiempo
+- tracking de tiempo real
+- replanificación de fechas
 
 Este módulo es responsable de la estructura y seguimiento del trabajo ejecutable del usuario.
 
